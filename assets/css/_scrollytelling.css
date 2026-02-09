@@ -12,7 +12,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: var(--gradient-hero);
+	/*background: var(--gradient-hero);*/
+	background-image:url(https://ik.imagekit.io/anita24/Portafolio/paisaje.webp?updatedAt=1770311459352);
 	text-align: center;
 	padding: var(--space-2xl);
 }

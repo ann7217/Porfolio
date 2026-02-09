@@ -63,9 +63,9 @@
 	--font-weight-bold: 700;
 
 	/* Font families */
-	--font-family-base: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+	--font-family-base: "Playfair Display", serif;
 	--font-family-heading: var(--font-family-base);
-	--font-family-mono: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Monaco, 'Courier New', monospace;
+	--font-family-mono: "Playfair Display", serif;
 
 	/* ===== SPACING SCALE ===== */
 	/* Consistent spacing using 8px base unit (4px = 0.25rem) */

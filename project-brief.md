@@ -86,12 +86,15 @@ Usa variables definidas en `_variables.css`:
 - **Bordes/Separadores:** `--color-border-light` para sutileza
 
 ### Typography
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<!--
 **System stack (no custom fonts aún):** `--font-family-base: system-ui, -apple-system, 'Segoe UI', Roboto...`
 - Escala fluida via `clamp()`: `--font-size-3xl` para h1, `--font-size-lg` para metadata
 - Jerarquía por tamaño + peso: h1 (3xl + bold), h2 (2xl + semibold), metadata (sm + medium)
 - Line-height: `--line-height-normal: 1.5` para body, `--line-height-tight: 1.2` para headings
-
+-->
 ### Inspiration/References
 
 <!-- Análisis basado en estos 3 portfolios -->
