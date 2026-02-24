@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="refresh" content="5; url=index.html" />
+	<meta name="description" content="Página no encontrada - Redirigiendo al portfolio" />
+	<meta name="author" content="Ana Tintin" />
+	<title>404 - Página no encontrada</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="./assets/css/style.css" />
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background: linear-gradient(135deg, #df61aa, #0c7f81);
+			font-family: "Playfair Display", serif;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			min-height: 100vh;
+			color: white;
+		}
+
+		.not-found-container {
+			text-align: center;
+			padding: 2rem;
+			max-width: 600px;
+		}
+
+		.error-code {
+			font-size: 8rem;
+			font-weight: bold;
+			margin: 0;
+			opacity: 0.9;
+			animation: fadeInDown 1s ease forwards;
+		}
+
+		.error-title {
+			font-size: 2.5rem;
+			margin: 1rem 0;
+			animation: fadeInUp 1s ease 0.2s forwards;
+			opacity: 0;
+		}
+
+		.error-message {
+			font-size: 1.125rem;
+			line-height: 1.6;
+			margin: 2rem 0;
+			opacity: 0.9;
+			animation: fadeInUp 1s ease 0.4s forwards;
+		}
+
+		.redirect-info {
+			font-size: 1rem;
+			margin: 2rem 0;
+			opacity: 0.8;
+			animation: fadeInUp 1s ease 0.6s forwards;
+		}
+
+		.back-link {
+			display: inline-block;
+			padding: 0.75rem 2rem;
+			background: rgba(255, 255, 255, 0.2);
+			color: white;
+			text-decoration: none;
+			border-radius: 50px;
+			margin-top: 1.5rem;
+			transition: all 0.3s ease;
+			font-size: 1rem;
+			font-family: "Playfair Display", serif;
+			animation: fadeInUp 1s ease 0.8s forwards;
+			opacity: 0;
+		}
+
+		.back-link:hover {
+			background: rgba(255, 255, 255, 0.3);
+			transform: translateY(-3px);
+			box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+		}
+
+		@keyframes fadeInDown {
+			from {
+				opacity: 0;
+				transform: translateY(-30px);
+			}
+			to {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+
+		@keyframes fadeInUp {
+			from {
+				opacity: 0;
+				transform: translateY(30px);
+			}
+			to {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="not-found-container">
+		<h1 class="error-code">404</h1>
+		<h2 class="error-title">Página no encontrada</h2>
+		<p class="error-message">
+			Lo sentimos, la página que buscas no existe. 
+			Serás redirigido al inicio en unos momentos...
+		</p>
+		<p class="redirect-info">
+			Si no eres redirigido automáticamente,
+		</p>
+		<a href="index.html" class="back-link">Volver al Portfolio</a>
+	</div>
+</body>
+
+</html>
