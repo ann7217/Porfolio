@@ -1,24 +1,23 @@
 https://ann7217.github.io/ana-porfolio-2026/
 
-# WEB ATELIER (UDIT) – Student Project Template
+# Mi portafolio web
 
 _Critical Coding for a Better Living._
 
 **Build a real, accessible, multilingual site—commit every week.**
 
-This repository is the **starting point for each student’s personal project** in the WEB ATELIER (UDIT) framework. While `web-foundations` provides the canonical lessons and `professor-course-template` manages the class instance, the **Student Project Template** is where each student designs and develops their own site. Every week, students commit progress here — _one student · one repo · one project · one commit per class_.
+Este proyecto es mi portafolio web personal donde muestro mis proyectos y habilidades como ilustradora. Incluye diferentes trabajos como bocetos, ilustraciones personales, organizados para presentar mi estilo artístico. El objetivo es crear un sitio accesible, responsive y fácil de navegar. 
 
 ## Purpose & Audience
 
-- **For Students:** A personal repository to build a web project step by step, following lessons. It deploys live via GitHub Pages.
-- **For Professors:** A window into each student’s weekly progress, commit history, and final project.
+- **Mi objetivo:** el objetivo de este sitio es presentar mi trabajo como ilustradora y crear una presencia online donde pueda mostrar mis proyectos artísticos.
 
 ## Core Technologies (Deep Explanation)
 
 ### GitHub Pages
 
-- Students enable Pages on their repo to publish their project live at a URL like `https://username.github.io/project`.
-- Automatic deployment: every commit to `main` updates the live site.
+- Habilite una página en el repositorio de mi proyecto para publicarlo con un  URL como `https://ann7217.github.io/ana-porfolio-2026/`.
+- Se despliega automáticamente.
 
 ### Jekyll
 
